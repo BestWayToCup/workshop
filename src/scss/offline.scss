@@ -1,0 +1,99 @@
+
+
+.bg {
+
+  //border: 2px solid crimson;
+  padding: {
+    left: 0;
+    right: 0;
+  };
+
+
+  body {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+
+  }
+
+  .wrapper {
+    position: absolute;
+    background: url("../assets/pics/background.jpg") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+
+    display: block;
+    overflow: hidden;
+
+    &:before {
+      position: relative;
+      content: '';
+      height: 100%;
+      width: 100%;
+      ////z-index: 600;
+      background:rgba(0,0,0,.4) url("../assets/pics/pattern.png");
+
+      ////padding-top:100px;
+      display: block;
+    }
+
+    .company-name {
+      top: 12%;
+      width: 400px;
+      text-align: center;
+      color: cornsilk;
+ 
+      position:absolute;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+
+      hr {
+        background-color: cornsilk;
+      }
+    }
+
+    .bottom {
+      bottom: 5%;
+      position:absolute;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+
+      color: cornsilk;
+    }
+
+    .comingsoon {
+      top: 18%;
+      position:absolute;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+
+      width: 900px;
+      text-align: center;
+      padding-top: 8%;
+      color: cornsilk;
+
+      h1 {
+        font-size: 74px;
+        color: cornsilk;
+      }
+    }
+  }
+
+}
+
